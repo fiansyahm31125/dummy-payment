@@ -1,0 +1,16 @@
+{
+  "qris": {
+    "111": {
+      "link": "https://qris.id?code=111",
+      "price": 3333
+    },
+    "222": {
+      "link": "https://qris.id?code=222",
+      "price": 5555
+    },
+    "333": {
+      "link": "https://qris.id?code=333",
+      "price": 7777
+    }
+  }
+}
