@@ -5,18 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
+
   <body>
-    <div class="bg-blue-300">
-      <div class="">
-        <p id="price">Rp..</p>
-      </div>
+    <div class="bg-blue-300 p-4">
+      <p class="text-xl font-bold">Harga:</p>
+      <p id="price" class="text-3xl font-bold">Loading...</p>
     </div>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.7.1.js"
-    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
   <script>
-    $("#price").text("500000");
+    // Ambil ID dari URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get("id");
+
+    // URL JSON QRIS
+    const qrisUrl = "https://fiansyahm31125.github.io/dummy-payment/qris.json";
+
+    if (!id) {
+      $("#price").text("ID not found");
+    } else {
+      // Fetch JSON dan ambil price sesuai ID
+      fetch(qrisUrl)
+        .then((res) => res.json())
+        .then((data) => {
+          // Misal format JSON = { "qris": { "111": { price: ... } } }
+          const item = data.qris[id];
+
+          if (item) {
+            $("#price").text("Rp " + item.price.toLocaleString());
+          } else {
+            $("#price").text("QRIS ID not found");
+          }
+        })
+        .catch((err) => {
+          console.error(err);
+          $("#price").text("Error loading data");
+        });
+    }
   </script>
 </html>
+<!-- http://127.0.0.1:3000/qris.html?id= -->
