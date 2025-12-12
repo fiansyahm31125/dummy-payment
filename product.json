@@ -5,9 +5,7 @@
       "id_qris":111,
       "name": "InAct Machine License",
       "price": 750000,
-      "currency": "IDR",
       "description": "Absensi menggunakan machine.",
-      "rating": 4.7,
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=111",
       "is_active": true
     },
@@ -16,9 +14,7 @@
       "id_qris":222,
       "name": "InAct Machine FlashLight License",
       "price": 2250000,
-      "currency": "IDR",
       "description": "Absensi menggunakan machine dengan flashlight.",
-      "rating": 4.5,
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=222",
       "is_active": true
     },
@@ -27,9 +23,7 @@
       "id_qris":333,
       "name": "InAct HRIS Mobile",
       "price": 110000,
-      "currency": "IDR",
       "description": "Absensi menggunakan mobile",
-      "rating": 4.9,
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=333",
       "is_active": true
     }
