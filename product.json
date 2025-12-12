@@ -5,7 +5,7 @@
       "id_qris":111,
       "name": "InAct Machine License",
       "price": 750000,
-      "description": "Absensi menggunakan machine.",
+      "description": "Absensi menggunakan machine. Cocok untuk perusahaan yang karyawannya kurang mengerti teknologi/gaptek.",
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=111",
       "is_active": true
     },
@@ -14,7 +14,7 @@
       "id_qris":222,
       "name": "InAct Machine FlashLight License",
       "price": 2250000,
-      "description": "Absensi menggunakan machine dengan flashlight.",
+      "description": "Absensi menggunakan machine dengan flashlight.Cocok untuk perusahaan yang pulangnya malam",
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=222",
       "is_active": true
     },
@@ -23,7 +23,7 @@
       "id_qris":333,
       "name": "InAct HRIS Mobile",
       "price": 110000,
-      "description": "Absensi menggunakan mobile",
+      "description": "Absensi menggunakan mobile. Cocok untuk perusahaan yang dapat absen darimanapun WFH maupun WFO",
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=333",
       "is_active": true
     }
