@@ -2,28 +2,28 @@
   "products": [
     {
       "id": 1,
-      "id_qris":111,
+      "id_qris": 111,
       "name": "InAct Machine License",
       "price": 750000,
-      "description": "Absensi menggunakan machine. Cocok untuk perusahaan yang karyawannya kurang mengerti teknologi/gaptek.",
+      "description": "Absensi menggunakan perangkat mesin, cocok untuk perusahaan yang membutuhkan sistem absensi yang stabil dan mudah digunakan. Sangat sesuai untuk karyawan yang lebih nyaman dengan perangkat fisik dibanding aplikasi.",
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=111",
       "is_active": true
     },
     {
       "id": 2,
-      "id_qris":222,
+      "id_qris": 222,
       "name": "InAct Machine FlashLight License",
       "price": 2250000,
-      "description": "Absensi menggunakan machine dengan flashlight.Cocok untuk perusahaan yang pulangnya malam",
+      "description": "Absensi menggunakan perangkat mesin dilengkapi fitur flashlight, ideal untuk operasional yang berlangsung hingga malam hari atau area dengan pencahayaan minim. Tetap mudah digunakan oleh seluruh karyawan.",
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=222",
       "is_active": true
     },
     {
       "id": 3,
-      "id_qris":333,
+      "id_qris": 333,
       "name": "InAct HRIS Mobile",
       "price": 110000,
-      "description": "Absensi menggunakan mobile. Cocok untuk perusahaan yang dapat absen darimanapun WFH maupun WFO",
+      "description": "Absensi berbasis aplikasi mobile, mendukung fleksibilitas kerja seperti WFH maupun WFO. Cocok untuk perusahaan yang membutuhkan mobilitas tinggi dan akses absensi dari berbagai lokasi.",
       "link_payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=333",
       "is_active": true
     }
