@@ -1,19 +1,22 @@
 {
-  "qris": {
-    "111": {
+  "qris": [
+    {
+      "id_product":111,
       "name": "InAct Machine License",
       "link-payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=111",
       "price": 750000
     },
-    "222": {
+    {
+      "id_product":222,
       "name": "InAct Machine FlashLight License",
       "link-payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=222",
       "price": 2250000
     },
-    "333": {
+    {
+      "id_product":333,
       "name": "InAct HRIS Mobile",
       "link-payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=333",
       "price": 110000
     }
-  }
+  ]
 }
