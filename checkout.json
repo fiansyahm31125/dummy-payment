@@ -2,21 +2,21 @@
   "qris": [
     {
       "id_product":111,
-      "name": "InAct Machine License",
-      "link-payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=111",
-      "price": 750000
+      "name": "Mesin Absensi Terbaik Sidik Jari InterActive Fingerprint A 4000 S - Unit Only",
+      "link-payment": "https://www.tokopedia.com/interactive/mesin-absensi-terbaik-sidik-jari-interactive-fingerprint-a-4000-s-unit-only-9581b?extParam=whid%3D240535&aff_unique_id=&channel=others&chain_key=",
+      "price": 740000
     },
     {
       "id_product":222,
-      "name": "InAct Machine FlashLight License",
-      "link-payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=222",
-      "price": 2250000
+      "name": "InterActive Mesin Absensi InterActive F-7000 dengan ADMS Sensor Sidik Jari Wajah Baca RFID Garansi 2 Tahun bisa cloud untuk tarik data dari mana saja - Unit Only",
+      "link-payment": "https://www.tokopedia.com/interactive/interactive-mesin-absensi-interactive-f-7000-dengan-adms-sensor-sidik-jari-wajah-baca-rfid-garansi-2-tahun-bisa-cloud-untuk-tarik-data-dari-mana-saja-1729814047808521517?extParam=whid%3D240535&aff_unique_id=&channel=others&chain_key=",
+      "price": 7015000
     },
     {
       "id_product":333,
-      "name": "InAct HRIS Mobile",
-      "link-payment": "https://fiansyahm31125.github.io/dummy-payment/qris.html?id=333",
-      "price": 110000
+      "name": "Mesin Absensi InterActive X1800 Sidik Jari RFID Baterai Cadangan Garansi 2 Tahun Garansi Service Lifetime bisa tarik data dari mana saja - UNIT ONLY",
+      "link-payment": "https://www.tokopedia.com/interactive/mesin-absensi-interactive-x1800-sidik-jari-rfid-baterai-cadangan-garansi-2-tahun-garansi-service-lifetime-bisa-tarik-data-dari-mana-saja-1729804352153224493?extParam=whid%3D240535&aff_unique_id=&channel=others&chain_key=",
+      "price": 3680000
     }
   ]
 }
